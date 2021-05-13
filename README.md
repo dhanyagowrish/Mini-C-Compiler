@@ -1,5 +1,8 @@
-# C Compiler  
-A C compiler developed using lex and yacc  
+# Mini C Compiler  
+A mini C compiler developed using Lex and Yacc for:  
+* Structures  
+* Switch  
+* While
   
 ## Phases implemented:  
 1. Lexical Analysis  
@@ -11,8 +14,13 @@ A C compiler developed using lex and yacc
 * Symbol Table generation
 * Intermediate code is stored in Quadruples format  
   
-## Str
 ## Errors handled:  
 * Undeclared variables  
 * Re-declaration of variables within the same scope  
 * Type mismatch  
+  
+## Optimizations:  
+* Constant folding  
+* Constant propogation  
+* Loop invariant code identification  
+* Dead code identification
