@@ -8,7 +8,7 @@ A mini C compiler developed using Lex and Yacc for:
 1. Lexical Analysis  
 2. Syntax Analysis  
 3. Semantic Analysis  
-4. Intermediate Code Generation (ICG)  
+4. Intermediate Code Generation (ICG) in Three Address Code form
   
 ## Features:  
 * Symbol Table generation
